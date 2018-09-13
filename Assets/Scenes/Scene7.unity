@@ -659,11 +659,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -302.05005, y: 139.96835}
+  scrollPos: {x: 6.9280977, y: 346.5488}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 325
-  zoom: 0.34799936
+  zoom: 0.37699905
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -671,9 +671,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 90323637}
-  selectedCommands:
-  - {fileID: 90323634}
+  - {fileID: 90323585}
+  selectedCommands: []
   variables:
   - {fileID: 90323693}
   - {fileID: 90323692}
@@ -967,7 +966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.45337
     y: 64.567375
-    width: 123.27599
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1806,7 +1805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 947.15283
+    x: 945.5135
     y: 70.340866
     width: 120
     height: 40
@@ -2099,7 +2098,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &90323634
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90323570}
@@ -2258,7 +2257,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1515.2166
     y: 302.46973
-    width: 139.08063
+    width: 140.18591
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2527,7 +2526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1515.5277
     y: 240.48802
-    width: 121.83921
+    width: 121.61822
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2796,7 +2795,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1517.0259
     y: 173.63878
-    width: 121.83921
+    width: 121.61822
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3087,7 +3086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1507.9038
     y: 89.738945
-    width: 121.83921
+    width: 121.61822
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5017,7 +5016,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &90323722
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90323570}
@@ -5031,7 +5030,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &90323723
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90323570}
