@@ -27,12 +27,12 @@ public class ClickHandle : MonoBehaviour
             Progress = sceneInfo
         };
 
-        DataManager.Save("userInfo", player);
+        //DataManager.Save("userInfo", player);
     }
 
     public void StartClick()
     {
-        Debug.Log(DataManager.Get<UserInfo>("userInfo"));
+        //Debug.Log(DataManager.Get<UserInfo>("userInfo"));
         SceneManager.LoadScene("Introduction");
     }
 }
