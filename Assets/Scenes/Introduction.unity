@@ -209,6 +209,8 @@ GameObject:
   - component: {fileID: 260268131}
   - component: {fileID: 260268129}
   - component: {fileID: 260268130}
+  - component: {fileID: 260268132}
+  - component: {fileID: 260268133}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -243,11 +245,12 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 260268120}
   selectedCommands:
-  - {fileID: 260268129}
+  - {fileID: 260268133}
   variables:
   - {fileID: 260268128}
   - {fileID: 260268127}
   - {fileID: 260268126}
+  - {fileID: 260268132}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -285,10 +288,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 260268121}
   - {fileID: 260268124}
-  - {fileID: 260268125}
   - {fileID: 260268131}
   - {fileID: 260268130}
   - {fileID: 260268129}
+  - {fileID: 260268133}
+  - {fileID: 260268125}
 --- !u!114 &260268121
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -467,6 +471,35 @@ MonoBehaviour:
   indentLevel: 0
   key: MySatisfyKey
   variable: {fileID: 260268128}
+--- !u!114 &260268132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 260268118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705fa1ac97df74e3a84ff952ffd923f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: WorkMoney
+  value: 0
+--- !u!114 &260268133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 260268118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  key: WorkMoneyKey
+  variable: {fileID: 260268132}
 --- !u!1 &641323353
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,17 +865,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 97f6065dd4d21425988613fa987c4803, type: 3}
-    m_FontSize: 46
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: "\u6E38\u620F\u7B80\u4ECB"
 --- !u!222 &932750370
 CanvasRenderer:
