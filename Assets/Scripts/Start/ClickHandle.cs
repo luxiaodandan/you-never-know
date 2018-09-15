@@ -33,6 +33,7 @@ public class ClickHandle : MonoBehaviour
     public void StartClick()
     {
         //Debug.Log(DataManager.Get<UserInfo>("userInfo"));
+        Debug.Log("log test");
         SceneManager.LoadScene("Introduction");
     }
 }
