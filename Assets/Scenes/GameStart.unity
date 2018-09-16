@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 350.09735, y: 357.01813}
+  scrollPos: {x: 411.9395, y: 349.12335}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -826,8 +826,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1205096664}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -917,7 +916,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1205096667
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1205096661}
