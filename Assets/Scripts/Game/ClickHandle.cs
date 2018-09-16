@@ -12,28 +12,42 @@ public class ClickHandle : MonoBehaviour
 
     public void Start()
     {
+        SceneInfo sceneInfo = DataManager.Get<SceneInfo>("sceneInfo");
+        if(sceneInfo == null){
+            Debug.Log("First Enter Game");
+            Button continueBtn = GameObject.Find("ContinueButton").GetComponent<Button>();
+            continueBtn.interactable = false;
+        }
         // initial scene info
-        SceneInfo sceneInfo = new SceneInfo
-        {
-            SceneId = 1,
-            SceneName = "GameStart"
-        };
+        //SceneInfo sceneInfo = new SceneInfo
+        //{
+        //    SceneId = 1,
+        //    SceneName = "GameStart"
+        //};
 
-        UserInfo player = new UserInfo
-        {
-            Satisfy = 50,
-            Money = 2000,
-            GirlSatisf = 50,
-            Progress = sceneInfo
-        };
+        //UserInfo player = new UserInfo
+        //{
+        //    Satisfy = 50,
+        //    Money = 2000,
+        //    GirlSatisf = 50,
+        //    Progress = sceneInfo
+        //};
 
         //DataManager.Save("userInfo", player);
     }
 
     public void StartClick()
     {
-        //Debug.Log(DataManager.Get<UserInfo>("userInfo"));
-        Debug.Log("log test");
+        Debug.Log("Click Start Button.");
         SceneManager.LoadScene("Introduction");
+    }
+
+    public void ContinueClick()
+    {
+        SceneInfo historyScene = DataManager.Get<SceneInfo>("sceneInfo"); 
+        if(historyScene != null) {
+            Debug.Log("History Scene Name: " + historyScene.SceneName);
+            SceneManager.LoadScene(historyScene.SceneName);
+        }
     }
 }
