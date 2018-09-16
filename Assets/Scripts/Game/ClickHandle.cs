@@ -13,10 +13,12 @@ public class ClickHandle : MonoBehaviour
     public void Start()
     {
         SceneInfo sceneInfo = DataManager.Get<SceneInfo>("sceneInfo");
+        Button continueBtn = GameObject.Find("ContinueButton").GetComponent<Button>();
         if(sceneInfo == null){
             Debug.Log("First Enter Game");
-            Button continueBtn = GameObject.Find("ContinueButton").GetComponent<Button>();
             continueBtn.interactable = false;
+        } else {
+            continueBtn.interactable = true;
         }
         // initial scene info
         //SceneInfo sceneInfo = new SceneInfo
