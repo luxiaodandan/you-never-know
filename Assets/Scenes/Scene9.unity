@@ -745,7 +745,6 @@ GameObject:
   - component: {fileID: 90323600}
   - component: {fileID: 90323805}
   - component: {fileID: 90323806}
-  - component: {fileID: 90323807}
   - component: {fileID: 90323819}
   - component: {fileID: 90323817}
   - component: {fileID: 90323816}
@@ -836,8 +835,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 90323595}
-  selectedCommands: []
+  - {fileID: 90323683}
+  selectedCommands:
+  - {fileID: 90323679}
   variables:
   - {fileID: 90323643}
   - {fileID: 90323660}
@@ -3536,7 +3536,6 @@ MonoBehaviour:
   - {fileID: 90323670}
   - {fileID: 90323668}
   - {fileID: 90323680}
-  - {fileID: 90323807}
   - {fileID: 90323679}
 --- !u!114 &90323684
 MonoBehaviour:
@@ -6655,32 +6654,6 @@ MonoBehaviour:
   targetObject: {fileID: 285062862}
   methodName: SaveScene9
   delay: 0
---- !u!114 &90323807
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 90323570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 654
-  indentLevel: 0
-  storyText: "\u6700\u540E\u7684\u6570\u503C\u7ED3\u679C\uFF0C\u7236\u6BCD\u6EE1\u610F\u5EA6\uFF1A{$ParentSatisfy}\uFF0C\u5973\u53CB\u6EE1\u610F\u5EA6\uFF1A{$GirlSatisfy}\uFF0C\u81EA\u5DF1\u6EE1\u610F\u5EA6\uFF1A{$MySatisfy}\uFF0C\u5DE5\u4F5C\u5F97\u5206\uFF1A{$WorkMoney}{w=5}"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 334166178}
 --- !u!114 &90323808
 MonoBehaviour:
   m_ObjectHideFlags: 2
