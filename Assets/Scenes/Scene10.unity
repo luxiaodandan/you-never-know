@@ -671,6 +671,9 @@ GameObject:
   - component: {fileID: 819792817}
   - component: {fileID: 819792816}
   - component: {fileID: 819792815}
+  - component: {fileID: 819792827}
+  - component: {fileID: 819792828}
+  - component: {fileID: 819792829}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -691,7 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 240.60655, y: -13.549749}
+  scrollPos: {x: -793.5279, y: 12.047641}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 400
@@ -703,9 +706,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 819792716}
+  - {fileID: 819792778}
   selectedCommands:
-  - {fileID: 819792818}
+  - {fileID: 819792810}
   variables:
   - {fileID: 819792713}
   - {fileID: 819792712}
@@ -892,14 +895,17 @@ MonoBehaviour:
   - {fileID: 819792731}
   - {fileID: 819792826}
   - {fileID: 819792825}
+  - {fileID: 819792827}
   - {fileID: 819792824}
   - {fileID: 819792823}
   - {fileID: 819792814}
+  - {fileID: 819792828}
   - {fileID: 819792822}
   - {fileID: 819792821}
   - {fileID: 819792820}
   - {fileID: 819792819}
   - {fileID: 819792818}
+  - {fileID: 819792829}
   - {fileID: 819792817}
   - {fileID: 819792816}
   - {fileID: 819792815}
@@ -1712,7 +1718,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &819792748
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3359,14 +3365,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 644
   indentLevel: 0
-  storyText: "\u300A\u4F60\u4E0D\u77E5\u9053\u7684\u4E8B\u300B\nminigame 55\u7EC4\n\u961F\u540D\n\u5BF9\u5BF9\u5BF9\u4F60\u8BF4\u7684\u90FD\u5BF9\u961F\n\u7B56\u5212\nerwinzhao(\u8D75\u4E00\u51E1)
+  storyText: "\u300A\u4F60\u4E0D\u77E5\u9053\u7684\u4E8B\u300B\nminigame 55\u7EC4\n\u961F\u540D\n\u5BF9\u5BF9\u5BF9\u4F60\u8BF4\u7684\u90FD\u961F\n\u7B56\u5212\nerwinzhao(\u8D75\u4E00\u51E1)
     celiaye(\u53F6\u6C90\u828A) samiwu(\u5434\u7855) scarlettluo(\u7F57\u5A9E\u9D97)
     cateli(\u674E\u742A\u5A67)\n\u5F00\u53D1 \nyannyang(\u6768\u5B5D\u52C7) nannanzhang(\u5F20\u6960)
-    \n\u7F8E\u672F \n\u8D56\u5FD7\u6167\nUI\nceliaye(\u53F6\u6C90\u828A) scarlettluo(\u7F57\u5A9E\u9D97)\n\u914D\u97F3\nerwinzhao(\u8D75\u4E00\u51E1)\n\u97F3\u4E50
+    \nUI\nceliaye(\u53F6\u6C90\u828A) scarlettluo(\u7F57\u5A9E\u9D97)\n\u914D\u97F3\nerwinzhao(\u8D75\u4E00\u51E1)\n\u97F3\u4E50
     \nceliaye(\u53F6\u6C90\u828A) samiwu(\u5434\u7855) scarlettluo(\u7F57\u5A9E\u9D97)
     \n\u6D4B\u8BD5\n55\u7EC4\u5168\u4F53\u6210\u5458\nsponsor \neffiesun(\u5B59\u67CF\u6960)
-    milkli(\u674E\u96C4\u658C) zhaojunmeng(\u5B5F\u662D\u4FCA)\n\u7279\u522B\u9E23\u8C22\n\u7F8E\u672F
-    \u8D56\u5FD7\u6167"
+    milkli(\u674E\u96C4\u658C) zhaojunmeng(\u5B5F\u662D\u4FCA)\n\u7279\u522B\u9E23\u8C22
+    \u7F8E\u672F\n\u8D56\u5FD7\u6167"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3401,7 +3407,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &819792812
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3414,7 +3420,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &819792813
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3432,7 +3438,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &819792814
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3495,7 +3501,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &819792815
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3508,7 +3514,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &819792816
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3521,7 +3527,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &819792817
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3538,7 +3544,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &819792818
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3601,7 +3607,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &819792819
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3664,7 +3670,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &819792820
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3677,7 +3683,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &819792821
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3690,7 +3696,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &819792822
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3707,7 +3713,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &819792823
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3720,7 +3726,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &819792824
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3737,7 +3743,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &819792825
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3800,7 +3806,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &819792826
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819792706}
@@ -3811,6 +3817,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 647
   indentLevel: 0
+--- !u!114 &819792827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819792706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 662
+  indentLevel: 1
+  volume: 0.05
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &819792828
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819792706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 663
+  indentLevel: 2
+  volume: 0.05
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &819792829
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819792706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 664
+  indentLevel: 2
+  volume: 0.05
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!1 &1043442835
 GameObject:
   m_ObjectHideFlags: 0
